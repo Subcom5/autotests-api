@@ -17,3 +17,4 @@ me_response = httpx.get("http://localhost:8000/api/v1/users/me", headers=headers
 
 print("Response body: ", me_response.json())
 print("Status Code: ", me_response.status_code)
+
