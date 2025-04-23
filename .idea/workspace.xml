@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e1f4e5-6285-4188-9f38-b349ea5ce0c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/httpx_authentication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/httpx_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpx_get_user_me.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +36,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.httpx_authentication.executor": "Run",
     "Python.httpx_example.executor": "Run",
+    "Python.httpx_get_user_me.executor": "Run",
     "Python.json_python.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
