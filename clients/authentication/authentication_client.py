@@ -2,6 +2,8 @@ from clients.api_client import APIClient
 from httpx import Response
 from typing import TypedDict
 
+from clients.public_http_builder import get_public_http_client
+
 
 class LoginRequestDict(TypedDict):
     """
@@ -40,3 +42,13 @@ class AuthenticationClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post("/api/v1/authentication/refresh", json=request)
+
+
+# Добавляем builder для AuthenticationClient
+def get_authentication_client() -> AuthenticationClient:
+    """
+    Функция создаёт экземпляр AuthenticationClient с уже настроенным HTTP-клиентом.
+
+    :return: Готовый к использованию AuthenticationClient.
+    """
+    return AuthenticationClient(client=get_public_http_client())
