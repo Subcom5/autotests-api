@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e1f4e5-6285-4188-9f38-b349ea5ce0c9" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clients/public_http_builder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/autotests-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/autotests-api.iml" afterDir="false" />
+=======
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/authentication/authentication_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/authentication/authentication_client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/users/public_users_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/public_users_client.py" afterDir="false" />
