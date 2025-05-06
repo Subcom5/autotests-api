@@ -1,12 +1,12 @@
 import httpx
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 
 base_url = "http://localhost:8000"
 
 # Создаем пользователя
 create_user_payload = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "password": "string",
     "lastName": "string",
     "firstName": "string",
@@ -32,7 +32,7 @@ patch_user_headers = {
     "Authorization": f"Bearer {login_response_data["token"]["accessToken"]}"
 }
 patch_user_payload = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "lastName": "update_string",
     "firstName": "update_string",
     "middleName": "update_string"
