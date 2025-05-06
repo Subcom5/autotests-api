@@ -2,7 +2,7 @@ from clients.courses.courses_client import get_courses_client
 from clients.courses.courses_schema import CreateCourseRequestSchema
 from clients.exercises.exercises_client import get_exercise_client
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, GetExercisesQuerySchema, \
-    GetExerciseQuerySchema, UpdateExerciseRequestSchema
+    UpdateExerciseRequestSchema, GetExerciseResponseSchema
 from clients.files.files_client import get_files_client, CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.public_users_client import get_public_users_client, CreateUserRequestSchema
@@ -82,7 +82,7 @@ print('Create exercise data:', create_exercise_response)
 
 # Запрашиваем данные по упражнению
 get_exercise_response = exercise_client.get_exercise(
-    GetExerciseQuerySchema(exercise_id=create_exercise_response.exercise.id)
+    create_exercise_response.exercise.id
 )
 print('Get exercise data:', get_exercise_response)
 
@@ -95,8 +95,8 @@ print('Get list exercise data:', get_exercises_response)
 
 # Обновляем упражнение "Упражнение 1".
 update_exercise_response = exercise_client.update_exercise(
-    GetExerciseQuerySchema(exercise_id=create_exercise_response.exercise.id),
-    data=UpdateExerciseRequestSchema(
+    create_exercise_response.exercise.id,
+    UpdateExerciseRequestSchema(
         title="Exercise 2",
         maxScore=100,
         minScore=50,

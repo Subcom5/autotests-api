@@ -22,12 +22,6 @@ class GetExercisesQuerySchema(BaseModel):
     """
     course_id: str = Field(alias="courseId")
 
-class GetExerciseQuerySchema(BaseModel):
-    """
-    Описание структуры запроса на получение информации об упражнении.
-    """
-    exercise_id: str
-
 class GetExercisesResponseSchema(BaseModel):
     """
     Описание структуры списка упражнений.
@@ -48,9 +42,22 @@ class CreateExerciseRequestSchema(BaseModel):
     description: str = Field(min_length=1)
     estimated_time: str | None = Field(alias="estimatedTime", min_length=1, max_length=50)
 
-class ExerciseResponseSchema(BaseModel):
+
+class CreateExerciseResponseSchema(BaseModel):
     """
-    Описание структуры ответа упражнения
+    Описание структуры ответа при создании упражнения
+    """
+    exercise: ExerciseSchema
+
+class UpdateExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа при обновлении упражнения
+    """
+    exercise: ExerciseSchema
+
+class GetExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа при обновлении упражнения
     """
     exercise: ExerciseSchema
 
