@@ -15,5 +15,5 @@ def validate_json_schema(instance: Any, schema: dict) -> None:
         schema=schema,
         instance=instance,
         # позволяет валидировать строки на соответствие формату, например, проверку email или URL.
-        format_checkers=Draft202012Validator.FORMAT_CHECKER
+        format_checker=Draft202012Validator.FORMAT_CHECKER
     )
