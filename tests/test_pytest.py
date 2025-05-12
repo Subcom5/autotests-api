@@ -7,4 +7,4 @@ def test_assert_positive_case():  # Новый тест, которые пров
 
 
 def test_assert_negative_case():  # Новый тест, которые проверяет негативный кейс
-    assert (2 + 2) == 5  , "Это ошибка"
+    assert (2 + 2) != 5  , "Это ошибка"
