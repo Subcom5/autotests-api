@@ -1,7 +1,6 @@
 from clients.api_client import APIClient
 from clients.public_http_builder import get_public_http_client
 from httpx import Response
-from typing import TypedDict
 
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema
 
