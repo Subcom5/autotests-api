@@ -18,13 +18,11 @@ class PublicUsersClient(APIClient):
         """
         return self.post("/api/v1/users", json=request.model_dump(by_alias=True))
 
-    # Добавили новый метод
     def create_user(self, request: CreateUserRequestSchema) -> CreateUserResponseSchema:
         response = self.create_user_api(request)
         return CreateUserResponseSchema.model_validate_json(response.text)
 
 
-# Добавляем builder для PublicUsersClient
 def get_public_users_client() -> PublicUsersClient:
     """
     Функция создаёт экземпляр PublicUsersClient с уже настроенным HTTP-клиентом.

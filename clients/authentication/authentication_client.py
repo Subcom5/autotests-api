@@ -39,7 +39,6 @@ class AuthenticationClient(APIClient):
         return LoginResponseSchema.model_validate_json(response.text)
 
 
-# Добавляем builder для AuthenticationClient
 def get_authentication_client() -> AuthenticationClient:
     """
     Функция создаёт экземпляр AuthenticationClient с уже настроенным HTTP-клиентом.
