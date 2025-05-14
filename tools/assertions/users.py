@@ -1,4 +1,4 @@
-from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema
+from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema
 from tools.assertions.base import assert_equal
 from clients.users.users_schema import UserSchema
 
@@ -16,26 +16,30 @@ def assert_create_users_response(request: CreateUserRequestSchema, response: Cre
     assert_equal(response.user.first_name, request.first_name, "first_name")
     assert_equal(response.user.middle_name, request.middle_name, "middle_name")
 
-def assert_user(request: UserSchema, response: UserSchema):
+def assert_user(actual: UserSchema, expected: UserSchema):
     """
-    Проверяет, что запрос данных пользователя возвращает корректные данные.
+    Проверяет, что фактические данные пользователя соответствуют ожидаемым.
 
-    :param request: Ожидаемые данные пользователя.
-    :param response: Ответ API с данными пользователя.
+    :param actual: Фактические данные пользователя.
+    :param expected: Ожидаемые данные пользователя.
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
-    assert_equal(response.id, request.id, "id")
-    assert_equal(response.email, request.email, "email")
-    assert_equal(response.last_name, request.last_name, "last_name")
-    assert_equal(response.first_name, request.first_name, "first_name")
-    assert_equal(response.middle_name, request.middle_name, "middle_name")
+    assert_equal(actual.id, expected.id, "id")
+    assert_equal(actual.email, expected.email, "email")
+    assert_equal(actual.last_name, expected.last_name, "last_name")
+    assert_equal(actual.first_name, expected.first_name, "first_name")
+    assert_equal(actual.middle_name, expected.middle_name, "middle_name")
 
-def assert_get_user_response(request: UserSchema, response: CreateUserResponseSchema):
-    """
-    Проверяет, что данные пользователя при запросе совпадают.
 
-    :param request: Ответ API при запросе пользователя.
-    :param response: Ответ API при создании пользователя.
-    :raises AssertionError: Если хотя бы одно поле не совпадает.
+def assert_get_user_response(
+        get_user_response: GetUserResponseSchema,
+        create_user_response: CreateUserResponseSchema
+):
     """
-    assert_user(request, response.user)
+    Проверяет, что ответ на получение пользователя соответствует ответу на его создание.
+
+    :param get_user_response: Ответ API при запросе данных пользователя.
+    :param create_user_response: Ответ API при создании пользователя.
+    :raises AssertionError: Если данные пользователя не совпадают.
+    """
+    assert_user(get_user_response.user, create_user_response.user)
