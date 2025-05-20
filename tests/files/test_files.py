@@ -1,7 +1,6 @@
 import pytest
 from http import HTTPStatus
 
-
 from clients.files.files_client import FilesClient
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema, GetFileResponseSchema
 from clients.errors_schema import ValidationErrorResponseSchema, InternalErrorResponseSchema
@@ -50,7 +49,6 @@ class TestFiles:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
-
     def test_create_file_with_empty_directory(self, files_client: FilesClient):
         request = CreateFileRequestSchema(
             directory="",
@@ -63,7 +61,6 @@ class TestFiles:
         assert_create_file_with_empty_directory_response(response_data)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
-
 
     def test_delete_file(self, files_client: FilesClient, function_file: FileFixture):
         delete_response = files_client.delete_file_api(function_file.response.file.id)

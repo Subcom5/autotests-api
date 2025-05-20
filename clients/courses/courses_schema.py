@@ -10,7 +10,7 @@ class CourseSchema(BaseModel):
     """
     id: str
     title: str = Field(min_length=1, max_length=250)
-    max_sore: int | None = Field(alias="maxScore")
+    max_score: int | None = Field(alias="maxScore")
     min_score: int | None = Field(alias="minScore")
     description: str = Field(min_length=1)
     preview_file: FileSchema = Field(alias="previewFile")
@@ -23,6 +23,7 @@ class GetCursesQuerySchema(BaseModel):
     Описание структуры запроса на получение списка курсов.
     """
     user_id: str = Field(alias="userId")
+
 
 class CreateCourseRequestSchema(BaseModel):
     """
@@ -38,11 +39,13 @@ class CreateCourseRequestSchema(BaseModel):
     preview_file_id: str = Field(alias="previewFileId", default_factory=fake.uuid4)
     created_by_user_id: str = Field(alias="createdByUserId", default_factory=fake.uuid4)
 
+
 class CreateCourseResponseSchema(BaseModel):
     """
     Описание структуры ответа создания курса.
     """
     course: CourseSchema
+
 
 class UpdateCourseRequestSchema(BaseModel):
     """
@@ -55,3 +58,17 @@ class UpdateCourseRequestSchema(BaseModel):
     min_score: int | None = Field(alias="minScore", default_factory=fake.min_score)
     description: str = Field(default_factory=fake.text)
     estimated_time: str | None = Field(alias="estimatedTime", default_factory=fake.estimated_time)
+
+
+class UpdateCourseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа обновления курса.
+    """
+    course: CourseSchema
+
+
+class GetCoursesResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение списка курсов.
+    """
+    courses: list[CourseSchema]
