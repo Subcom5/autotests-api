@@ -57,7 +57,7 @@ class UpdateExerciseResponseSchema(BaseModel):
 
 class GetExerciseResponseSchema(BaseModel):
     """
-    Описание структуры ответа при обновлении упражнения
+    Описание структуры ответа при запросе упражнения
     """
     exercise: ExerciseSchema
 
