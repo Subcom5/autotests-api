@@ -1,7 +1,10 @@
+import allure
+
 from clients.errors_schema import ValidationErrorSchema, ValidationErrorResponseSchema, InternalErrorResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 
 
+@allure.step("Check validation error")
 def assert_validation_error(
         actual: ValidationErrorSchema,
         expected: ValidationErrorSchema
@@ -20,6 +23,7 @@ def assert_validation_error(
     assert_equal(actual.message, expected.message, name="message")
 
 
+@allure.step("Check validation error response")
 def assert_validation_error_response(
         actual: ValidationErrorResponseSchema,
         expected: ValidationErrorResponseSchema
@@ -38,6 +42,7 @@ def assert_validation_error_response(
         assert_validation_error(actual.details[index], detail)
 
 
+@allure.step("Check internal error response")
 def assert_internal_error_response(
         actual: InternalErrorResponseSchema,
         expected: InternalErrorResponseSchema
@@ -52,6 +57,7 @@ def assert_internal_error_response(
     assert_equal(actual.details, expected.details, "details")
 
 
+@allure.step("Check file not found response")
 def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     """
     Функция для проверки ошибки, если файл не найден на сервере.
