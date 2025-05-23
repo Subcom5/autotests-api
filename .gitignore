@@ -87,9 +87,9 @@ ipython_config.py
 *_pb2_grpc.py
 
 # Environment
-.env
-.env.*
-*.env
+#.env
+#.env.*
+#*.env
 .venv/
 venv/
 ENV/
