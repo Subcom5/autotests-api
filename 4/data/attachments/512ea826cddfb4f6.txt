@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/60ae89bc-fd28-49cb-8cd7-97470f5f644a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQ2OjIyLjgxOTQ3MyIsInVzZXJfaWQiOiJkNzhmMGQyNC00MGIwLTQ5MmQtYTBkMC1mMGY3NjM4MzU2ZmIifQ.GYMKFGecz08Aw0kLCxiA-auyu3B0IuMxjHOaVkcYOhs' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Терапия манера поколение горький.","maxScore":65,"minScore":18,"description":"Командующий дрогнуть развитый тута освобождение болото конструкция. Вскакивать поставить левый возбуждение.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,18 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:courses.py:89 Check create course response
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Радость хлеб коллектив конференция еврейский обида способ.
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 65
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 12
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Тесно сынок возможно. Порода угроза школьный руководитель. Анализ выразить ответить самостоятельно необычный.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 3 weeks
+INFO     AUTOTEST:base.py:38 Check that "id" equals to e9f68f39-615b-4da8-9972-d47dd52deb83
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 83935756-c25f-48e2-a64c-e93568efc2d1
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQ2OjI1LjIxMDAyNiIsInVzZXJfaWQiOiIwZDU0OGJhOS03YWVmLTQ5YzQtYjU2NC1iYWQ3YTNlN2E4NTAifQ.oqBtTo7jSrGpUBEDyjkINVZZDKa_HGdwhhiMzpY-Fzs' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Появление соответствие белье отражение грудь.","maxScore":69,"minScore":25,"description":"Поймать левый самостоятельно идея.","estimatedTime":"9 weeks","previewFileId":"05354e7b-7908-4e02-88d0-a6a8fe27a7d0","createdByUserId":"0d548ba9-7aef-49c4-b564-bad7a3e7a850"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQ2OjIyLjIzNjc2NCIsInVzZXJfaWQiOiI4MzkzNTc1Ni1jMjVmLTQ4ZTItYTY0Yy1lOTM1NjhlZmMyZDEifQ.KuGSWNM0jA3Hnjp6qfI2etDKRCB_usPZ163z4GCE3-I' \
+  -H 'content-length: 508' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Радость хлеб коллектив конференция еврейский обида способ.","maxScore":65,"minScore":12,"description":"Тесно сынок возможно. Порода угроза школьный руководитель. Анализ выразить ответить самостоятельно необычный.","estimatedTime":"3 weeks","previewFileId":"e9f68f39-615b-4da8-9972-d47dd52deb83","createdByUserId":"83935756-c25f-48e2-a64c-e93568efc2d1"}'

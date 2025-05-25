@@ -1,0 +1,18 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:32 Make PATCH request to http://localhost:8000/api/v1/courses/60ae89bc-fd28-49cb-8cd7-97470f5f644a
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses/60ae89bc-fd28-49cb-8cd7-97470f5f644a
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:courses.py:26 Check update course response
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Терапия манера поколение горький.
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 65
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 18
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Командующий дрогнуть развитый тута освобождение болото конструкция. Вскакивать поставить левый возбуждение.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 5 weeks
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

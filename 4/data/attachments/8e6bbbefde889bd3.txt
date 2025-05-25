@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQ2OjI0LjU2MTI4NSIsInVzZXJfaWQiOiI2MjVjNjFhZi03ZTc2LTQ0NGQtODZhYy04YzZkZmY0MzFlZjQifQ.maCYp_7lOjg9579ODcmfQ_VdN4g7QA85I5PgZNrlqCE' \
+  -H 'content-length: 601' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Тюрьма деловой запретить.","maxScore":75,"minScore":29,"description":"Теория уничтожение заплакать.\nПробовать изба запретить ход. Карандаш бегать цвет функция.\nМиф командующий отражение банда художественный. Издали горький непривычный видимо головка находить да.","estimatedTime":"6 weeks","previewFileId":"1bdf619d-45ab-4926-af69-ad7f537b48e1","createdByUserId":"625c61af-7e76-444d-86ac-8c6dff431ef4"}'

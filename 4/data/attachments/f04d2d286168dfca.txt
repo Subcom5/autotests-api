@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQ2OjIxLjY0NzYyNiIsInVzZXJfaWQiOiIyMDI2MzA4OS03ZDY5LTQxY2ItOTgzMy00NjRjYzdlYzdiMGIifQ.0Kv1e0n_fUeVj30qvjsmlnf-C7LR6SCQp6VPfMtOBUw' \
+  -H 'content-length: 567' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Лапа обида строительство монета выдержать задержать труп.","maxScore":76,"minScore":18,"description":"Сходить танцевать набор банк смелый. Заплакать правый лиловый цвет висеть услать. Народ мальчишка висеть бок дурацкий присесть школьный кольцо.","estimatedTime":"2 weeks","previewFileId":"747237b6-8764-4a22-89d0-ed9450c35599","createdByUserId":"20263089-7d69-41cb-9833-464cc7ec7b0b"}'

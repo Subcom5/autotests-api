@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQ2OjI1Ljc5NzAyNyIsInVzZXJfaWQiOiI5NDRmZDEwYS04YzJkLTQxMmUtYWY1Mi02NGFiOWFiZTc5YzIifQ.cjCeNqPOqcsx_vviY7nZslUQBVSxU46OoZCrYatkx80' \
+  -H 'content-length: 608' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Пасть господь возбуждение зима медицина обида хозяйка.","maxScore":69,"minScore":14,"description":"Хотеть белье блин выражение аж горький. Лететь добиться приятель ход единый терапия. Кпсс опасность бегать иной. Руководитель растеряться страсть скользить командующий.","estimatedTime":"4 weeks","previewFileId":"c373535a-3ab5-4c68-9368-19cb78879472","createdByUserId":"944fd10a-8c2d-412e-af52-64ab9abe79c2"}'

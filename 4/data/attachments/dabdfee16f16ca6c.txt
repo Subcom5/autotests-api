@@ -1,0 +1,15 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make GET request to http://localhost:8000/api/v1/users/me
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users/me
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:users.py:59 Check get user response
+INFO     AUTOTEST:users.py:38 Check user
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 285f639a-8ddd-4693-9a37-70e1cd23fb72
+INFO     AUTOTEST:base.py:38 Check that "email" equals to nshilova@example.net
+INFO     AUTOTEST:base.py:38 Check that "last_name" equals to Сорокина
+INFO     AUTOTEST:base.py:38 Check that "first_name" equals to Тит
+INFO     AUTOTEST:base.py:38 Check that "middle_name" equals to Эмиль
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

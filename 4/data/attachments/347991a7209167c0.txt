@@ -1,0 +1,24 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     AUTOTEST:event_hooks.py:32 Make GET request to http://localhost:8000/api/v1/exercises/3c165f7e-cafc-41b2-bb5a-a5b26f7d9f6a
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/3c165f7e-cafc-41b2-bb5a-a5b26f7d9f6a
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:exercises.py:71 Check get exercise response
+INFO     AUTOTEST:exercises.py:47 Check exercise
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 3c165f7e-cafc-41b2-bb5a-a5b26f7d9f6a
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Точно пространство академик процесс смертельный термин скрытый наслаждение.
+INFO     AUTOTEST:base.py:38 Check that "course_id" equals to e742f94a-c48b-4ed2-8b32-95bca7417641
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 74
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 3
+INFO     AUTOTEST:base.py:38 Check that "order_index" equals to 91
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Потрясти господь витрина поезд построить. Вперед тяжелый слишком носок спешить.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 4 weeks
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

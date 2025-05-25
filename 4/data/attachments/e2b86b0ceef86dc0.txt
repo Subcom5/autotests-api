@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQ2OjIzLjk4NDQ0NSIsInVzZXJfaWQiOiIzM2FmMmFmNy0yZGViLTRiZTgtOGIzMi01YWY3OGMyNjY0YWIifQ.cQI0Rd2_dmju7D4iVmNTq1Nqv1-JHq-qmh8bKWDkoG8' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Зато конференция полоска.","maxScore":74,"minScore":3,"description":"Написать рот вздрогнуть угроза вскакивать. Салон спешить сынок бок спешить. Пламя развитый уточнить ученый.","estimatedTime":"10 weeks","previewFileId":"3bcdf31e-c564-473c-a60f-d6cddc835a20","createdByUserId":"33af2af7-2deb-4be8-8b32-5af78c2664ab"}'
