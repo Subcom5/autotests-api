@@ -1,0 +1,18 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:courses.py:89 Check create course response
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Изображать пространство рай армейский команда магазин.
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 53
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 13
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Тесно коробка падать угол правление необычный смелый. Хлеб спорт ягода крутой ученый смертельный парень. Фонарик носок да инструкция.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 8516c925-9cf6-4801-84ac-66c3d6ed1495
+INFO     AUTOTEST:base.py:38 Check that "id" equals to d5b1f002-f363-42b2-96e5-6322a2c677fc
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

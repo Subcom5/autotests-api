@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEyOjE1OjU4LjMyMTg3NyIsInVzZXJfaWQiOiJiYzZhYzc1ZC02YzI1LTQyNDQtYmQwOC03MzczY2VlM2JiOTkifQ.PMWTtnmPLhbOcTstQx8RkPY30p9E9Sk2pAEC0NX9OX4' \
+  -H 'content-length: 472' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Посидеть слишком художественный интеллектуальный.","maxScore":97,"minScore":2,"description":"Передо функция космос степь возникновение угол. Нервно другой затянуться хлеб сынок аллея дрогнуть.","estimatedTime":"5 weeks","previewFileId":"4778441a-612d-4221-beec-e0a4e5880030","createdByUserId":"bc6ac75d-6c25-4244-bd08-7373cee3bb99"}'

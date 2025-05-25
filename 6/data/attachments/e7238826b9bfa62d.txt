@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/fa5c35d3-b4bb-4114-b6e4-2d81bbe9055e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEyOjE1OjU0Ljk4OTEwOSIsInVzZXJfaWQiOiI0NDY4ODZjZS02MDIxLTQ4ZDYtOGIwOS0yNWUxMTE4YmE5NDkifQ.C3MMkkZd3Ja_33VZQ0ZuqbyEgu7chCIoOWd0lRCdGvQ' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Слать выраженный монета металл строительство цепочка.","maxScore":64,"minScore":29,"description":"Пространство тревога фонарик советовать головной конференция. Коробка поставить следовательно около оборот мотоцикл граница.","estimatedTime":"10 weeks"}'

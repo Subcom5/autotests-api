@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEyOjE1OjU0LjcxNTM2NSIsInVzZXJfaWQiOiJkNWIxZjAwMi1mMzYzLTQyYjItOTZlNS02MzIyYTJjNjc3ZmMifQ.zlHhw9PPt6hjo5yl0FsicGG5WCVM54K3mulJeLUBJjY' \
+  -H 'content-length: 543' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Изображать пространство рай армейский команда магазин.","maxScore":53,"minScore":13,"description":"Тесно коробка падать угол правление необычный смелый. Хлеб спорт ягода крутой ученый смертельный парень. Фонарик носок да инструкция.","estimatedTime":"6 weeks","previewFileId":"8516c925-9cf6-4801-84ac-66c3d6ed1495","createdByUserId":"d5b1f002-f363-42b2-96e5-6322a2c677fc"}'

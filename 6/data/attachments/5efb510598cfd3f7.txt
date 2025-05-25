@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEyOjE1OjU2LjE3MzUwMSIsInVzZXJfaWQiOiIyY2QzYzMyZC02ZTVhLTRiMTYtOTE1Yy0yZGI5MTk0YzU3ZDIifQ.C4CN16g9a8-zuyTG1nmP8EpmV8bjpzQe9hiouHPvpKU' \
+  -H 'content-length: 500' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Спасть расстегнуть прежний призыв затянуться бровь.","maxScore":86,"minScore":8,"description":"Ручей естественный угодный аллея мгновение. Выражаться пламя падать слать. Бегать тревога число спичка появление.","estimatedTime":"2 weeks","previewFileId":"17cecb8b-b977-4d58-a640-22492364cebc","createdByUserId":"2cd3c32d-6e5a-4b16-915c-2db9194c57d2"}'

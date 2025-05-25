@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEyOjE1OjU1Ljg5OTg2OSIsInVzZXJfaWQiOiIyZmJkZmVmYi1iOGE4LTRhMDQtYjhkYi02ZTQ1ZDRkNGY0MDMifQ.Je3HiaCJcLJ_Qcuj6hBBTHg9cbOjBny1v34d2jnKxH4' \
+  -H 'content-length: 656' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Механический столетие изображать вытаскивать решетка совет более.","maxScore":50,"minScore":30,"description":"Господь левый неправда присесть пробовать. Пол нажать вчера рот горький при самостоятельно спичка.\nГорький порода зачем. Триста важный покинуть. Реклама печатать спорт роса что табак.","estimatedTime":"6 weeks","previewFileId":"0fdbee16-b84d-4b1e-8807-cc8fe9c1bc9f","createdByUserId":"2fbdfefb-b8a8-4a04-b8db-6e45d4d4f403"}'

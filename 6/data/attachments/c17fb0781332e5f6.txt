@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEyOjE1OjU3LjM3ODI3MyIsInVzZXJfaWQiOiIyN2VlMWZiMi02NTllLTRiYjAtOWZjZC05NWRjNjI4YjFiYmEifQ.KMKlgEpw9O3n4kKG-qwaJMQA2WjQ_Rt0ubHkoqTvtHc' \
+  -H 'content-length: 573' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Валюта механический избегать демократия инструкция.","maxScore":73,"minScore":1,"description":"Правление полностью четко четко засунуть теория. Конференция наслаждение возмутиться.\nРазвернуться мелькнуть рот. Исполнять изменение число танцевать.","estimatedTime":"5 weeks","previewFileId":"b4c784b8-4cbb-40dc-9fe2-fb204156a130","createdByUserId":"27ee1fb2-659e-4bb0-9fcd-95dc628b1bba"}'

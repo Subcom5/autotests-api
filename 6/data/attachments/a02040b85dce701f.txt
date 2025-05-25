@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEyOjE1OjU0Ljk4OTEwOSIsInVzZXJfaWQiOiI0NDY4ODZjZS02MDIxLTQ4ZDYtOGIwOS0yNWUxMTE4YmE5NDkifQ.C3MMkkZd3Ja_33VZQ0ZuqbyEgu7chCIoOWd0lRCdGvQ' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Полоска роса госпожа тута ныне.","maxScore":58,"minScore":3,"description":"Основание актриса развитый миф. Задержать интернет что крыса материя сравнение.","estimatedTime":"1 weeks","previewFileId":"bf942134-e66b-4261-abf9-938c9c3b61da","createdByUserId":"446886ce-6021-48d6-8b09-25e1118ba949"}'

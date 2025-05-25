@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEyOjE1OjUzLjU2ODE5NyIsInVzZXJfaWQiOiI2NTU5YTMzNi1iYmNmLTQzYmUtYjFmZi1kNmQxMjE2NmE5ODcifQ.36-KHMOoaj-lIAm3BJBLuDZvhaoK1rBtkYkbdjePv2I' \
+  -H 'content-length: 583' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Строительство означать порог природа.","maxScore":98,"minScore":1,"description":"Добиться цвет задержать мусор возмутиться. Одиннадцать пасть инфекция а. Головной шлем единый прежде падать зато выдержать. Протягивать зачем картинка банда дрогнуть левый.","estimatedTime":"3 weeks","previewFileId":"ece133a0-bc23-4e17-8f60-e08794407071","createdByUserId":"6559a336-bbcf-43be-b1ff-d6d12166a987"}'

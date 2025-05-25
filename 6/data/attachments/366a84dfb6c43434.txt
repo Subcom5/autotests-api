@@ -1,0 +1,18 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:32 Make PATCH request to http://localhost:8000/api/v1/courses/fa5c35d3-b4bb-4114-b6e4-2d81bbe9055e
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses/fa5c35d3-b4bb-4114-b6e4-2d81bbe9055e
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:courses.py:26 Check update course response
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Слать выраженный монета металл строительство цепочка.
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 64
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 29
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Пространство тревога фонарик советовать головной конференция. Коробка поставить следовательно около оборот мотоцикл граница.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 10 weeks
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

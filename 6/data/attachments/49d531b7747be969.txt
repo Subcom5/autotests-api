@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDEyOjE1OjU3LjEwNTU2NiIsInVzZXJfaWQiOiI5N2ZlZTQ3Ni1mNTc3LTQwZWItOGUxMi0zNzIwZjhlZWE5ZjAifQ.2IZK44n0waLu6GUx7oPnd6xKM6vVA0Vv-9xm8NHvdPA' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Новый ныне применяться господь.","maxScore":97,"minScore":7,"description":"Миг пастух цепочка угроза райком отражение художественный. Опасность приятель спичка мимо.","estimatedTime":"2 weeks","previewFileId":"af46955d-b85f-43f2-8006-caa4bedbffe2","createdByUserId":"97fee476-f577-40eb-8e12-3720f8eea9f0"}'
