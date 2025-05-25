@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjUzOjQ3LjM0MzM2OCIsInVzZXJfaWQiOiI2MjgzZTU0YS1kNDc1LTQ5MWQtOTUzNy0wMmM0NzVmOTU5N2IifQ.mgb8U-pQHTsgc4k2GAgEma0UciynDqariGlFzd1rkYQ' \
+  -H 'content-length: 535' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Находить ленинград зима зеленый банда расстройство лететь.","maxScore":61,"minScore":14,"description":"Миф мальчишка а разводить налево.\nРастеряться ягода сверкать рай новый монета. Трубка коммунизм сопровождаться порода отдел.","estimatedTime":"2 weeks","previewFileId":"464c417a-8f3d-42f3-96e6-e333ce9d4a9e","createdByUserId":"6283e54a-d475-491d-9537-02c475f9597b"}'

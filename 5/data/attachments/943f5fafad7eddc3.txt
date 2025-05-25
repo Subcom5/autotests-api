@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjUzOjQ4LjQ4OTAwMSIsInVzZXJfaWQiOiI1MzE0Yjc3Ni1iYmMxLTRmM2QtYmQyYy1jNTFlYWQ0YWRhOWQifQ.FL0pVnccd44AXvc6rbvNVAxCHsaF6AO5twhuzlAaoBE' \
+  -H 'content-length: 669' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Рота граница развернуться беспомощный конференция прежде.","maxScore":61,"minScore":27,"description":"Наступать один ремень поколение услать мимо. Выразить выразить конструкция тута пропасть. Бегать изба одиннадцать освободить чем миг покинуть. Строительство остановить дремать провинция ленинград.","estimatedTime":"6 weeks","previewFileId":"5c0522e5-6032-40a3-9551-0b904dee07ef","createdByUserId":"5314b776-bbc1-4f3d-bd2c-c51ead4ada9d"}'

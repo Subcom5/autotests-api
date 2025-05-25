@@ -1,0 +1,18 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:courses.py:89 Check create course response
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Рота граница развернуться беспомощный конференция прежде.
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 61
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 27
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Наступать один ремень поколение услать мимо. Выразить выразить конструкция тута пропасть. Бегать изба одиннадцать освободить чем миг покинуть. Строительство остановить дремать провинция ленинград.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 5c0522e5-6032-40a3-9551-0b904dee07ef
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 5314b776-bbc1-4f3d-bd2c-c51ead4ada9d
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

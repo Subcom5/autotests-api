@@ -1,0 +1,13 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:files.py:25 Check create file response
+INFO     AUTOTEST:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/dfd507e4-d539-4800-b072-cc797e03e36c.png
+INFO     AUTOTEST:base.py:38 Check that "filename" equals to dfd507e4-d539-4800-b072-cc797e03e36c.png
+INFO     AUTOTEST:base.py:38 Check that "directory" equals to tests
+INFO     AUTOTEST:files.py:41 Checks that the file is available at the specified URL.
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

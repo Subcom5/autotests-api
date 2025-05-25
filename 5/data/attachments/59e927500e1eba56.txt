@@ -1,0 +1,20 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     AUTOTEST:event_hooks.py:32 Make DELETE request to http://localhost:8000/api/v1/exercises/6dbc348b-778a-4a91-a237-3122b6b932ab
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/6dbc348b-778a-4a91-a237-3122b6b932ab
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:event_hooks.py:32 Make GET request to http://localhost:8000/api/v1/exercises/6dbc348b-778a-4a91-a237-3122b6b932ab
+INFO     AUTOTEST:event_hooks.py:41 Got response 404 Not Found from http://localhost:8000/api/v1/exercises/6dbc348b-778a-4a91-a237-3122b6b932ab
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 404
+INFO     AUTOTEST:exercises.py:105 Error checks if the exercise is not found
+INFO     AUTOTEST:errors.py:65 Check internal error response
+INFO     AUTOTEST:base.py:38 Check that "details" equals to Exercise not found
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

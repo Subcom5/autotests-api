@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjUzOjUxLjE2NTIwMyIsInVzZXJfaWQiOiJkOWViZmVlMy01MmMwLTQzYzYtOWVlOS1iOGUyNjBkODY0MjQifQ.vphMeYXErYBh93JX--iYrnY2WZ39TYbHI5OMO4OW7Kc' \
+  -H 'content-length: 578' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ботинок пасть рабочий правильный.","maxScore":71,"minScore":24,"description":"Поколение нервно скользить поколение приятель сверкающий.\nНизкий один рот поздравлять. Покинуть изба аж выбирать вздрагивать головка рай один. Неправда изба художественный.","estimatedTime":"5 weeks","previewFileId":"d2b77acd-f951-4a52-b3c1-d3fb33199098","createdByUserId":"d9ebfee3-52c0-43c6-9ee9-b8e260d86424"}'

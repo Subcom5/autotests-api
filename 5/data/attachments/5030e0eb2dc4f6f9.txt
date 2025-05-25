@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjUzOjUyLjEwODQ1NSIsInVzZXJfaWQiOiIzZmExOGVmZC1lMDRkLTQ4NjAtYjcyMi00MGI2MjIxNTJkZmUifQ.iyJ1TPsfYiSfO_MHY5lRgpqWgHH3VnekZKtstjTvS5c' \
+  -H 'content-length: 641' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Выразить тесно неудобно демократия затянуться.","maxScore":62,"minScore":28,"description":"Демократия торопливый уточнить. Рис сверкать неудобно мусор палата.\nПередо горький монета мотоцикл. Солнце палата носок соответствие устройство торговля. Построить вздрогнуть славный находить.","estimatedTime":"6 weeks","previewFileId":"32a57483-eb39-4a0c-9b88-e65ac9f3c403","createdByUserId":"3fa18efd-e04d-4860-b722-40b622152dfe"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b469d204-a748-4378-8ee9-013b504ec1f7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjUzOjQ4Ljc2MzI2NyIsInVzZXJfaWQiOiJhMGI2YjA5NC05ZjI4LTRhN2MtYWNjMy03ZTc1MmM2NWFkYWQifQ._ok1HoRE8oS0JiL_2Q3ZYniqRdDoCkdjAN0rPrQ52No' \
+  -H 'content-length: 505' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Порода товар видимо деловой невозможно сынок приятель основание.","maxScore":82,"minScore":27,"description":"Тысяча угол встать дружно посидеть приятель. Холодно смелый бровь доставать разводить пастух заплакать естественный. Запустить выгнать дыхание совет ярко угодный.","estimatedTime":"7 weeks"}'

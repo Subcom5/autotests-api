@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjUzOjQ5Ljk1ODI4MCIsInVzZXJfaWQiOiI5NWMzMDJhOS02YTBlLTRhOTEtYTA2OC02ODE2ODc2NmEwMGEifQ.yIoi_eObmYiOSPmTPiT9mFfMljakywsy5jozBbGS6nI' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Космос дыхание головной.","maxScore":88,"minScore":9,"description":"Кпсс степь инфекция спешить славный намерение. Близко порт палец падать господь написать возбуждение.","estimatedTime":"1 weeks","previewFileId":"8c2924d6-ea08-499f-b7cc-4c6b0a7b01d3","createdByUserId":"95c302a9-6a0e-4a91-a068-68168766a00a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjUzOjQ5LjY4NDEwNSIsInVzZXJfaWQiOiIyNDhmMWI1ZC0yYmYyLTRiNjQtYWFiZC1mN2MzN2FjMmI2YjEifQ.UtR7CYHiPCzauFoXs9a3B_hwx7b49p547vWChm0DFVc' \
+  -H 'content-length: 668' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Команда головка очко светило способ социалистический ребятишки.","maxScore":92,"minScore":20,"description":"Мимо торопливый теория добиться строительство близко. Выраженный боец инфекция находить проход войти следовательно. Рабочий настать интернет пасть рассуждение прелесть металл исследование.","estimatedTime":"10 weeks","previewFileId":"7ccad819-e092-418e-8d14-e439f8f43758","createdByUserId":"248f1b5d-2bf2-4b64-aabd-f7c37ac2b6b1"}'

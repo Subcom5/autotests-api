@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjUzOjUwLjg4OTc3NyIsInVzZXJfaWQiOiJjZTg4YzM2Yi00NTkyLTRhZTctYmU0OS00YzcxYzljNzk0NWUifQ.TMcm0Gbd4cR0Gy5qHCPFL3PRALhB6EgAemJ-g8aLPW0' \
+  -H 'content-length: 674' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Смеяться бок процесс низкий горький расстройство пространство.","maxScore":50,"minScore":5,"description":"Мягкий пламя совещание материя.\nУмирать новый сомнительный провал. Спешить поставить сомнительный. Покидать мимо ленинград спалить зима рис способ. Факультет премьера пламя легко четыре покидать.","estimatedTime":"9 weeks","previewFileId":"f146345d-c0ef-468d-90f3-e3c3f6060020","createdByUserId":"ce88c36b-4592-4ae7-be49-4c71c9c7945e"}'

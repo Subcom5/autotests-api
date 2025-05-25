@@ -1,0 +1,18 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:32 Make PATCH request to http://localhost:8000/api/v1/courses/b469d204-a748-4378-8ee9-013b504ec1f7
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses/b469d204-a748-4378-8ee9-013b504ec1f7
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:courses.py:26 Check update course response
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Порода товар видимо деловой невозможно сынок приятель основание.
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 82
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 27
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Тысяча угол встать дружно посидеть приятель. Холодно смелый бровь доставать разводить пастух заплакать естественный. Запустить выгнать дыхание совет ярко угодный.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 7 weeks
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

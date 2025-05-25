@@ -1,0 +1,33 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:32 Make GET request to http://localhost:8000/api/v1/courses?userId=6283e54a-d475-491d-9537-02c475f9597b
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=6283e54a-d475-491d-9537-02c475f9597b
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:courses.py:69 Check get courses response
+INFO     AUTOTEST:base.py:74 Check that length of "courses" equals to 1
+INFO     AUTOTEST:courses.py:44 Check course
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 3bd94cf9-cc87-47e7-bcf1-0d68dec9eadd
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 61
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 14
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Находить ленинград зима зеленый банда расстройство лететь.
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Миф мальчишка а разводить налево.
+Растеряться ягода сверкать рай новый монета. Трубка коммунизм сопровождаться порода отдел.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 2 weeks
+INFO     AUTOTEST:files.py:56 Check file
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 464c417a-8f3d-42f3-96e6-e333ce9d4a9e
+INFO     AUTOTEST:base.py:38 Check that "filename" equals to 98bd4f3b-4fd5-4c76-a05c-db927f2053c2.png
+INFO     AUTOTEST:base.py:38 Check that "directory" equals to tests
+INFO     AUTOTEST:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/98bd4f3b-4fd5-4c76-a05c-db927f2053c2.png
+INFO     AUTOTEST:users.py:38 Check user
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 6283e54a-d475-491d-9537-02c475f9597b
+INFO     AUTOTEST:base.py:38 Check that "email" equals to sigizmund_88@example.com
+INFO     AUTOTEST:base.py:38 Check that "last_name" equals to Шашков
+INFO     AUTOTEST:base.py:38 Check that "first_name" equals to Ростислав
+INFO     AUTOTEST:base.py:38 Check that "middle_name" equals to Аристарх
+INFO     AUTOTEST:schema.py:22 Validating JSON schema
