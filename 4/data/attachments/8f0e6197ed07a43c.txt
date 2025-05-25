@@ -1,0 +1,20 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:exercises.py:27 Check create exercise response
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Привлекать славный полностью зима коробка художественный сопровождаться.
+INFO     AUTOTEST:base.py:38 Check that "course_id" equals to 3250c7f6-653d-4376-b80c-6aae57bbda70
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 69
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 12
+INFO     AUTOTEST:base.py:38 Check that "order_index" equals to 62
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Уничтожение роса мрачно актриса. Промолчать пространство намерение вытаскивать сходить академик.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 4 weeks
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

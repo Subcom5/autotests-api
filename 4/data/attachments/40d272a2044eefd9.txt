@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQzOjU2LjczODA0NyIsInVzZXJfaWQiOiIwZWFlMWFlNS1lNDRhLTQyNmUtYjU0Yy00ODUyNDkzZWM3OTYifQ.mlFMxdEj7shluTPl-_POD6SQhn0aJKKeBcsufZuqavo' \
+  -H 'content-length: 545' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Четко труп военный плавно.","maxScore":95,"minScore":15,"description":"Наткнуться правление светило палка некоторый правление. Исследование дорогой покинуть появление команда костер. Поговорить слишком сходить снимать гулять трубка.","estimatedTime":"3 weeks","previewFileId":"fdce0cab-2c92-45e5-bb74-211b785c8f7a","createdByUserId":"0eae1ae5-e44a-426e-b54c-4852493ec796"}'

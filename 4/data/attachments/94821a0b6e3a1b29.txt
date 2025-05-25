@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQzOjU4LjE5ODExOSIsInVzZXJfaWQiOiIwOGM1YzViNC0wYmI0LTQyMzgtYTRhMS0wYmE5NmJiNWIyMzgifQ.xJIe791OSJJ1vF2Qx71trl5uES_M7xePsNgvq89nhbQ' \
+  -H 'content-length: 531' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Изучить ныне рис угроза дальний космос передо.","courseId":"9ecf4e93-dc1a-4758-95c3-5a790e79d584","maxScore":98,"minScore":16,"orderIndex":71,"description":"Заложить лапа крутой домашний полевой товар правление. Устройство печатать премьера разуметься. Понятный витрина скрытый бак способ вздрагивать бригада монета.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3ac8d875-9c9b-4188-a87b-ac38cd26cc2b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQzOjU3LjAxMTI2MSIsInVzZXJfaWQiOiI5OWNlMGQ1Yy1lNGI1LTQ3MzMtODk4OC1mNTM2NDc1YmJkMDIifQ.n47MpRZ79sxc8PD1Pb9zqDr2V4BzY0GwhyxKzR0ijUM' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Поставить освобождение разводить смелый необычный.","maxScore":75,"minScore":22,"description":"Передо задержать потянуться инструкция. Посидеть дорогой счастье поставить мальчишка дьявол кольцо редактор.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQzOjU3LjAxMTI2MSIsInVzZXJfaWQiOiI5OWNlMGQ1Yy1lNGI1LTQ3MzMtODk4OC1mNTM2NDc1YmJkMDIifQ.n47MpRZ79sxc8PD1Pb9zqDr2V4BzY0GwhyxKzR0ijUM' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Крутой левый спасть конструкция.","maxScore":73,"minScore":4,"description":"Магазин солнце рота командующий пламя беспомощный помолчать. Картинка умолять совещание потом.","estimatedTime":"9 weeks","previewFileId":"3dd39080-210a-4916-882a-34f1e67ffab2","createdByUserId":"99ce0d5c-e4b5-4733-8988-f536475bbd02"}'

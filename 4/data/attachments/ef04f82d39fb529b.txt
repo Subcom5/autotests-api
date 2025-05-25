@@ -1,0 +1,18 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:32 Make PATCH request to http://localhost:8000/api/v1/courses/3ac8d875-9c9b-4188-a87b-ac38cd26cc2b
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses/3ac8d875-9c9b-4188-a87b-ac38cd26cc2b
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:courses.py:26 Check update course response
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Поставить освобождение разводить смелый необычный.
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 75
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 22
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Передо задержать потянуться инструкция. Посидеть дорогой счастье поставить мальчишка дьявол кольцо редактор.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 5 weeks
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQzOjU1LjU5OTY5MyIsInVzZXJfaWQiOiI1ZDQxMDBlMS02OGZhLTRlOTEtYjkyYi1iYjZmMGEzYmY1MWUifQ.FromKrJqrpz1tRquVnBBNJUTqEl_iIozpFtsentxQ0E' \
+  -H 'content-length: 533' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Четыре поздравлять вскакивать смертельный зеленый.","maxScore":100,"minScore":27,"description":"Посвятить мелочь коммунизм. Аллея возможно экзамен дремать рота упор вчера домашний. Налево очко плод пастух редактор падаль число.","estimatedTime":"9 weeks","previewFileId":"ef42c679-9ccd-411f-8f5d-109872d63428","createdByUserId":"5d4100e1-68fa-4e91-b92b-bb6f0a3bf51e"}'

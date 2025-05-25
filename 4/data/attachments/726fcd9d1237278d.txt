@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQzOjU4LjE5ODExOSIsInVzZXJfaWQiOiIwOGM1YzViNC0wYmI0LTQyMzgtYTRhMS0wYmE5NmJiNWIyMzgifQ.xJIe791OSJJ1vF2Qx71trl5uES_M7xePsNgvq89nhbQ' \
+  -H 'content-length: 633' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Монета эффект передо тута юный выражение рота слишком.","maxScore":50,"minScore":14,"description":"Избегать сохранять какой цель четко зато тревога ведь. Боец отражение заведение полевой забирать. Изменение тусклый прелесть дыхание собеседник. Волк посидеть недостаток что процесс.","estimatedTime":"4 weeks","previewFileId":"d1ff756e-4ed2-4188-b2c4-8f14d207b674","createdByUserId":"08c5c5b4-0bb4-4238-a4a1-0ba96bb5b238"}'

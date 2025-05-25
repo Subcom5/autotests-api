@@ -1,0 +1,18 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:courses.py:89 Check create course response
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Четко труп военный плавно.
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 95
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 15
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Наткнуться правление светило палка некоторый правление. Исследование дорогой покинуть появление команда костер. Поговорить слишком сходить снимать гулять трубка.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 3 weeks
+INFO     AUTOTEST:base.py:38 Check that "id" equals to fdce0cab-2c92-45e5-bb74-211b785c8f7a
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 0eae1ae5-e44a-426e-b54c-4852493ec796
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

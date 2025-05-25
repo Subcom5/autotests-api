@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQzOjU5LjM5MjcyOCIsInVzZXJfaWQiOiIwNzFhMGZiOC0yNGY4LTRkYjUtOTg5Zi02NDRmNTMyYjViM2YifQ.QL66zgld8GVK-8oaI0WVOPZt6pL3zNns3X7c428Da5Y' \
+  -H 'content-length: 476' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Расстройство инструкция жидкий тяжелый коричневый невозможно.","maxScore":85,"minScore":6,"description":"Покидать покидать выдержать что горький очутиться идея. Эпоха спорт освободить виднеться.","estimatedTime":"4 weeks","previewFileId":"bce1c29e-a70b-4341-8e48-975136dfd882","createdByUserId":"071a0fb8-24f8-4db5-989f-644f532b5b3f"}'

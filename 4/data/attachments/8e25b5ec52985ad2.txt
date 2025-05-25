@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI1VDA5OjQzOjU5LjEyMDI1NyIsInVzZXJfaWQiOiI1ZmViOTUxZS03YTljLTRhMTgtYWEwZS05ODFhNzIwZDk0NmQifQ.PTQZY_lzhJNtsIpNVgcnqU4A-4E-ztmoBIDWLkGwkp4' \
+  -H 'content-length: 574' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Мгновение ведь издали господь.","maxScore":54,"minScore":6,"description":"Палец мимо легко девка потрясти процесс жестокий. Вздрогнуть устройство полевой издали аж. Что тысяча банк дремать направо похороны.\nПровал естественный конструкция покидать.","estimatedTime":"3 weeks","previewFileId":"22b92297-fa6d-41ef-a285-4a933cc53f37","createdByUserId":"5feb951e-7a9c-4a18-aa0e-981a720d946d"}'

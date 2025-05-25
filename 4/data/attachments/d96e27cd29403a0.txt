@@ -1,0 +1,25 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     AUTOTEST:event_hooks.py:32 Make GET request to http://localhost:8000/api/v1/exercises?courseId=554e7e13-555a-4977-844d-ae83dacc112a
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=554e7e13-555a-4977-844d-ae83dacc112a
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:exercises.py:123 Check get exercises response
+INFO     AUTOTEST:base.py:74 Check that length of "exercises" equals to 1
+INFO     AUTOTEST:exercises.py:47 Check exercise
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 2407a858-5775-4be8-8c2a-c36a98748c92
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Жить способ миллиард бегать.
+INFO     AUTOTEST:base.py:38 Check that "course_id" equals to 554e7e13-555a-4977-844d-ae83dacc112a
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 94
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 26
+INFO     AUTOTEST:base.py:38 Check that "order_index" equals to 26
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Вообще подробность тесно неожиданный полоска запустить. Коллектив волк место недостаток витрина. Вывести вздрогнуть страсть вариант покидать.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 8 weeks
+INFO     AUTOTEST:schema.py:22 Validating JSON schema
