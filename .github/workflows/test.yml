@@ -48,8 +48,7 @@ jobs:
       # 6. Шаг для установки всех зависимостей проекта
       - name: Install dependencies
         run: |
-#          Обновляем pip до последней версии
-          python -m pip install --upgrade pip  
+          python -m pip install --upgrade pip  # Обновляем pip до последней версии
           pip install -r requirements.txt  # Устанавливаем зависимости, указанные в requirements.txt
 
       # 7. Шаг для запуска тестов с использованием pytest и генерации отчётов Allure
