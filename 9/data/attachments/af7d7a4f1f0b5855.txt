@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQ3OjQ1LjI1ODMxNyIsInVzZXJfaWQiOiIzMmEzZDU0ZC01ZjJhLTQyMTYtYjc5Zi1hMmExZmUwNWM1YzEifQ.1CnhFck5h7O3TNmdD1T7hHT-sjegM08cB1nCDRnJIHQ' \
+  -H 'content-length: 581' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Протягивать выражение важный.","maxScore":82,"minScore":14,"description":"Спасть вперед потрясти пол. Важный заработать бак покидать зато монета лапа.\nТысяча применяться вскакивать рис. Дальний даль медицина. Научить угроза монета забирать плод чувство.","estimatedTime":"6 weeks","previewFileId":"f8abe06b-aafa-4aef-972e-33522ff6004e","createdByUserId":"32a3d54d-5f2a-4216-b79f-a2a1fe05c5c1"}'

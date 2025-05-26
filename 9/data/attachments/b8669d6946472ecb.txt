@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQ3OjQxLjY1NjkyNCIsInVzZXJfaWQiOiI1OTY2MjI3MC0zYjUzLTRiMDgtYWQzYy1mNmYzOWViZWI5NGEifQ.We0PCAGY5DL3FgH_ezH7w9p83Bf9clyiUycm4daGLWI' \
+  -H 'content-length: 488' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Прощение находить слать.","maxScore":62,"minScore":14,"description":"Даль спасть ботинок заложить. Премьера природа возмутиться.\nСпешить ярко житель увеличиваться. Потрясти полоска мусор свежий госпожа.","estimatedTime":"5 weeks","previewFileId":"b9269a98-1470-4dd8-97dd-5b25563d14e9","createdByUserId":"59662270-3b53-4b08-ad3c-f6f39ebeb94a"}'

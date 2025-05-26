@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQ3OjQxLjkyOTU3NCIsInVzZXJfaWQiOiI5YjkyMWY5MS1lNTg4LTQ1ZjUtYWUxMC00MTU0MGQ2NzdiYmIifQ.AmQY9WCzRN_sYkHe9ecW7QS77BNpBsD8M0pesQgcVW8' \
+  -H 'content-length: 627' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Стакан наступать исполнять механический тревога гулять прощение.","maxScore":61,"minScore":7,"description":"Исполнять руководитель настать зачем. Скользить сохранять возможно серьезный мгновение помолчать. Пятеро рай плясать.\nТоропливый славный постоянный поговорить космос.","estimatedTime":"4 weeks","previewFileId":"eaa0e6bf-a99c-4911-9802-7c4ac803ce2f","createdByUserId":"9b921f91-e588-45f5-ae10-41540d677bbb"}'

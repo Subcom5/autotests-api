@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQ3OjQ0LjMyMDg5OCIsInVzZXJfaWQiOiJmNmMxYzkzMy1iMDVjLTQ0OTUtODk2Ni1kZTJjNWQwZjFhNmMifQ.ZEmzXKiGWFCG9Cog4uSBpAJDDMYSullh833X8I6ei9w' \
+  -H 'content-length: 519' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Услать трясти князь вздрагивать услать развитый невозможно.","maxScore":92,"minScore":20,"description":"Триста провал расстройство исполнять тусклый виднеться. Командующий поставить одиннадцать услать лететь инфекция.","estimatedTime":"9 weeks","previewFileId":"066c5769-ff31-4cee-8e30-c007148111e2","createdByUserId":"f6c1c933-b05c-4495-8966-de2c5d0f1a6c"}'

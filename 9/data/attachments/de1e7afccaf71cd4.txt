@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e50e1981-603f-4461-9f7d-b74f22f73e9e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQ3OjQxLjkyOTU3NCIsInVzZXJfaWQiOiI5YjkyMWY5MS1lNTg4LTQ1ZjUtYWUxMC00MTU0MGQ2NzdiYmIifQ.AmQY9WCzRN_sYkHe9ecW7QS77BNpBsD8M0pesQgcVW8' \
+  -H 'content-length: 474' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Сомнительный карандаш вскинуть.","maxScore":74,"minScore":6,"description":"Эффект печатать девка металл. Горький способ дальний ведь пропаганда. Очередной опасность рай очередной наслаждение пол.\nКуча роскошный потом космос палец сынок. Пища волк уронить.","estimatedTime":"3 weeks"}'

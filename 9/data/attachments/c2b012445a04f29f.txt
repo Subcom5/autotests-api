@@ -1,0 +1,33 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: coverage-results
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:32 Make GET request to http://localhost:8000/api/v1/courses?userId=70c0f300-014e-4dbd-90c7-aab7263453e7
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=70c0f300-014e-4dbd-90c7-aab7263453e7
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:courses.py:69 Check get courses response
+INFO     AUTOTEST:base.py:74 Check that length of "courses" equals to 1
+INFO     AUTOTEST:courses.py:44 Check course
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 79487358-2643-435c-aa14-3b9e8c4d6f83
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 64
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 22
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Пламя поздравлять сверкающий картинка народ естественный.
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Светило дружно сынок командование правление. Ботинок освобождение мера интернет число увеличиваться даль находить. Встать о фонарик боец правление предоставить куча.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 7 weeks
+INFO     AUTOTEST:files.py:56 Check file
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 73c0059b-e061-4c52-be53-72f398320b63
+INFO     AUTOTEST:base.py:38 Check that "filename" equals to 0a26485a-1c50-4200-9c5b-b2023e306894.png
+INFO     AUTOTEST:base.py:38 Check that "directory" equals to tests
+INFO     AUTOTEST:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/0a26485a-1c50-4200-9c5b-b2023e306894.png
+INFO     AUTOTEST:users.py:38 Check user
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 70c0f300-014e-4dbd-90c7-aab7263453e7
+INFO     AUTOTEST:base.py:38 Check that "email" equals to ermakovamarfa@example.net
+INFO     AUTOTEST:base.py:38 Check that "last_name" equals to Костина
+INFO     AUTOTEST:base.py:38 Check that "first_name" equals to Сигизмунд
+INFO     AUTOTEST:base.py:38 Check that "middle_name" equals to Галактион
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

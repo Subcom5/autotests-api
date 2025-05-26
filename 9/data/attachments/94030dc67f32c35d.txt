@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQ3OjQzLjExOTczMCIsInVzZXJfaWQiOiIxNTc4ZTZlZi1iNDQ1LTQ2ZDAtOWViYS1kZTA2MmYyYjUwYTkifQ._HJrk5u17DohiQL2xmIzPdrnzIjVAseNGs2cP7r3MVg' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Пища сынок направо увеличиваться.","maxScore":88,"minScore":9,"description":"Возникновение более лететь народ вчера шлем. Невозможно ленинград холодно столетие вряд спичка.","estimatedTime":"8 weeks","previewFileId":"a9a85c0b-6b41-48fb-9ebc-3040095ff65a","createdByUserId":"1578e6ef-b445-46d0-9eba-de062f2b50a9"}'

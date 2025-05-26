@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQ3OjQ0LjA0NjU0NCIsInVzZXJfaWQiOiI2NGFkYzExNS1kMDA0LTRmM2QtOWJmNS04OGYyNmExYjdlMWMifQ.SrwJbKJvKXOW5MsWVA7SFhn0hQQgjRxWxN5YKb6-lso' \
+  -H 'content-length: 460' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Разнообразный полоска передо зачем палата.","maxScore":62,"minScore":25,"description":"Запеть порт отражение наслаждение гулять налоговый. Ложиться появление дыхание спорт возникновение.","estimatedTime":"6 weeks","previewFileId":"b40efd05-cc97-4947-9090-8b0663274ff2","createdByUserId":"64adc115-d004-4f3d-9bf5-88f26a1b7e1c"}'

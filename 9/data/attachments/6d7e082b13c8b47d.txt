@@ -1,0 +1,19 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:courses.py:89 Check create course response
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Прощение находить слать.
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 62
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 14
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Даль спасть ботинок заложить. Премьера природа возмутиться.
+Спешить ярко житель увеличиваться. Потрясти полоска мусор свежий госпожа.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 5 weeks
+INFO     AUTOTEST:base.py:38 Check that "id" equals to b9269a98-1470-4dd8-97dd-5b25563d14e9
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 59662270-3b53-4b08-ad3c-f6f39ebeb94a
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

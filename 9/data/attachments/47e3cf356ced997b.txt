@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQ3OjQwLjUwNjU4MiIsInVzZXJfaWQiOiI3MGMwZjMwMC0wMTRlLTRkYmQtOTBjNy1hYWI3MjYzNDUzZTcifQ.kTYmat5KWwBuq0NxdFApdwrUeSY9aqNO_zeACOiVrAQ' \
+  -H 'content-length: 611' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Пламя поздравлять сверкающий картинка народ естественный.","maxScore":64,"minScore":22,"description":"Светило дружно сынок командование правление. Ботинок освобождение мера интернет число увеличиваться даль находить. Встать о фонарик боец правление предоставить куча.","estimatedTime":"7 weeks","previewFileId":"73c0059b-e061-4c52-be53-72f398320b63","createdByUserId":"70c0f300-014e-4dbd-90c7-aab7263453e7"}'
