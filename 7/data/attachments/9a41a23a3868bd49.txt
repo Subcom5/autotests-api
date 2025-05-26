@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjI2OjE3LjI0NzE1NiIsInVzZXJfaWQiOiI5NzFmYmZmOS1jNTlmLTQxZjctYThmNy1iNmIyMjc5Yjk2OTUifQ.vwS0MeLuF2BV4p-TqavJ0DBUui4w5k5OWWwM41TfMrw' \
+  -H 'content-length: 500' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Упорно выражаться невыносимый наслаждение спалить правый.","maxScore":79,"minScore":28,"description":"Похороны тюрьма очко. Серьезный кидать ботинок выкинуть услать.\nЛегко монета важный степь решение счастье.","estimatedTime":"6 weeks","previewFileId":"a29889c5-5e06-4ffa-83c6-63cba6f7ebde","createdByUserId":"971fbff9-c59f-41f7-a8f7-b6b2279b9695"}'

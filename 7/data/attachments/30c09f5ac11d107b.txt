@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjI2OjEzLjYxODY5NCIsInVzZXJfaWQiOiJlY2I5NWM3NC01YWRhLTQwODAtOGUxYy0wMjBiNGU4NzE3MzAifQ.88PBbSsVPVjdhLiSyRSjIXZ5_0QMrPsu891dVcW9gcs' \
+  -H 'content-length: 511' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Грудь сынок вывести интернет рис неправда.","maxScore":54,"minScore":6,"description":"Песенка провинция металл зачем поезд степь. Тяжелый расстегнуть выдержать угроза слать разуметься. Помолчать назначить ложиться.","estimatedTime":"2 weeks","previewFileId":"8e12b834-c7f2-40b8-adca-8117b59d4248","createdByUserId":"ecb95c74-5ada-4080-8e1c-020b4e871730"}'

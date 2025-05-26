@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjI2OjE0LjUzMDI0NiIsInVzZXJfaWQiOiI5ZDBkNmMzZS1jZDEwLTQzZTMtYjc1Mi00MTAxZDMxY2YyMTgifQ.8cf2e6NIAiHQs-aJcEMa7edCxrTaxmQ8WXxmNptObO8' \
+  -H 'content-length: 518' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Бегать демократия космос разуметься бак поздравлять хотеть.","maxScore":71,"minScore":1,"description":"Вариант парень протягивать кузнец.\nВыраженный что белье военный помолчать. Экзамен проход слишком полевой адвокат.","estimatedTime":"1 weeks","previewFileId":"b75adc4e-681e-45f5-803b-aba04310561f","createdByUserId":"9d0d6c3e-cd10-43e3-b752-4101d31cf218"}'

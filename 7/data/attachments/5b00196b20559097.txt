@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/66c42ff6-aa0a-4b79-9274-a6fc51e99920' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjI2OjE0LjUzMDI0NiIsInVzZXJfaWQiOiI5ZDBkNmMzZS1jZDEwLTQzZTMtYjc1Mi00MTAxZDMxY2YyMTgifQ.8cf2e6NIAiHQs-aJcEMa7edCxrTaxmQ8WXxmNptObO8' \
+  -H 'content-length: 441' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ведь успокоиться эпоха четыре невыносимый.","maxScore":84,"minScore":19,"description":"Угол заплакать наткнуться. Одиннадцать заложить точно лететь предоставить легко. Неожиданный равнодушный палата грудь табак народ расстегнуть висеть.","estimatedTime":"3 weeks"}'

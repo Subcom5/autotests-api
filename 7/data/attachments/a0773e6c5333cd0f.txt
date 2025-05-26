@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjI2OjE0LjgwNDY5MyIsInVzZXJfaWQiOiJlMDdlNjdjMi0wNTRkLTQzNmQtODFjNC1kNTQ2NjQwOGVkOGYifQ.RKQmk-al02iJx535vfpaY2Sg2MZWjzshmyy9sPkVd8c' \
+  -H 'content-length: 656' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Вариант палата уронить изредка новый степь правление.","maxScore":80,"minScore":17,"description":"Интеллектуальный сустав четко ярко. Роскошный теория умирать бегать коробка мусор мягкий. Снимать мучительно июнь советовать невозможно.\nПередо сустав помолчать следовательно наткнуться парень.","estimatedTime":"7 weeks","previewFileId":"03dc547b-8129-4909-88de-ed21dd6cf1bc","createdByUserId":"e07e67c2-054d-436d-81c4-d5466408ed8f"}'

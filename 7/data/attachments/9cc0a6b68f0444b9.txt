@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjI2OjEzLjAzMzU0OSIsInVzZXJfaWQiOiI4YmE5MDc4Ny02YTdmLTRjMmItYTUzNS03NzQxYzU1NDYxMzcifQ.FivgtNcziUw-_w0kpIZeFOETHfDWkE_H65X_TFN_zUY' \
+  -H 'content-length: 508' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Коричневый полюбить непривычный.","maxScore":55,"minScore":30,"description":"Пропадать да еврейский плавно. Серьезный темнеть растеряться конференция другой реклама. Нож солнце наслаждение пасть покинуть ставить.","estimatedTime":"2 weeks","previewFileId":"eaa02bb7-185a-4b22-b9b6-ca970be55a90","createdByUserId":"8ba90787-6a7f-4c2b-a535-7741c5546137"}'

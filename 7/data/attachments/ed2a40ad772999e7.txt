@@ -1,0 +1,18 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:courses.py:89 Check create course response
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Грудь сынок вывести интернет рис неправда.
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 54
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 6
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Песенка провинция металл зачем поезд степь. Тяжелый расстегнуть выдержать угроза слать разуметься. Помолчать назначить ложиться.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 2 weeks
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 8e12b834-c7f2-40b8-adca-8117b59d4248
+INFO     AUTOTEST:base.py:38 Check that "id" equals to ecb95c74-5ada-4080-8e1c-020b4e871730
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

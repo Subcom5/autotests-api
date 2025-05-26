@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjI2OjE2LjAyMDIyOCIsInVzZXJfaWQiOiI4Y2FhM2VlMC05MzJiLTQ2MDktYTZmOC01YWJiYzk1NjgyNjAifQ.XxAGrOPq0bNmw0WLVdWBfzpdIoQQGqvqcj3wOhx0ERQ' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Набор вздрогнуть конструкция магазин.","maxScore":50,"minScore":12,"description":"Горький исследование прелесть плавно реклама. Мелькнуть стакан смеяться команда мгновение.","estimatedTime":"9 weeks","previewFileId":"762b5a15-a8f4-4e19-ae6a-d95e1095f95a","createdByUserId":"8caa3ee0-932b-4609-a6f8-5abbc9568260"}'

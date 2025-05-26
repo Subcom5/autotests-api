@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjI2OjE2Ljk3MzE0NSIsInVzZXJfaWQiOiJiMzgwM2E2YS1lYTc3LTRiNjUtODUyZi1iMWMwMjRmMTdkNTcifQ.7brVOradESSTUJdRG4GeRQ-pnkJWymD4y1WS21n1hhk' \
+  -H 'content-length: 478' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Жестокий скрытый спалить мягкий.","maxScore":61,"minScore":28,"description":"Полоска намерение за легко бабочка мелькнуть коллектив. Товар миг кидать понятный. Возможно подземный триста мучительно.","estimatedTime":"4 weeks","previewFileId":"519b3aed-a322-4c0d-8fb8-a6ed8455405c","createdByUserId":"b3803a6a-ea77-4b65-852f-b1c024f17d57"}'

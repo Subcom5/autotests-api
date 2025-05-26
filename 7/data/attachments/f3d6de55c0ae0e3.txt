@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjI2OjE1Ljc0NTY0NiIsInVzZXJfaWQiOiI0NWIxOGRmYS1hYzliLTQ4ZjYtODMwMi1jOGIwNzRmYTJhNTUifQ.RJU7WmyYF2TrzdIxcu23k12j38Fmy9RMjWkkuSWZnrw' \
+  -H 'content-length: 514' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Еврейский рис правление прежний космос школьный.","maxScore":99,"minScore":13,"description":"Промолчать горький заложить военный карман цвет прошептать. Возмутиться тута основание вздрогнуть бегать покинуть реклама.","estimatedTime":"2 weeks","previewFileId":"b1b7f42c-09b2-4089-aa18-f08b1ddcce18","createdByUserId":"45b18dfa-ac9b-48f6-8302-c8b074fa2a55"}'

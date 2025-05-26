@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjI2OjE1Ljc0NTY0NiIsInVzZXJfaWQiOiI0NWIxOGRmYS1hYzliLTQ4ZjYtODMwMi1jOGIwNzRmYTJhNTUifQ.RJU7WmyYF2TrzdIxcu23k12j38Fmy9RMjWkkuSWZnrw' \
+  -H 'content-length: 608' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Разводить приятель степь коричневый умолять передо проход.","courseId":"b1348e9b-a829-4694-9116-659b55532abf","maxScore":73,"minScore":24,"orderIndex":87,"description":"Бетонный поставить пропаганда спасть возможно возмутиться кпсс поздравлять. Расстройство собеседник адвокат процесс строительство.\nМимо спасть дошлый анализ некоторый порог ход покинуть.","estimatedTime":"5 weeks"}'
