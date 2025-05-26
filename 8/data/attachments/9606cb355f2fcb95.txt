@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQxOjMwLjc3Nzg5MiIsInVzZXJfaWQiOiIyZTk3ZWQyOS02NGZkLTQ4M2EtYTAyNC03NWI3ZTczNjYxZjgifQ.jtxQR1mjDRFin7RAXBgqUU-RZ4ROrrt56opjsXyFPiA' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Картинка палата уронить вскакивать коробка ход роса.","courseId":"6f9a5b13-cd11-4035-86b4-3a36abf88c2d","maxScore":53,"minScore":19,"orderIndex":81,"description":"Пламя рис художественный доставать сбросить хлеб витрина. Передо войти человечек дыхание.","estimatedTime":"3 weeks"}'

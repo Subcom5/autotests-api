@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQxOjMzLjE4NjAxMiIsInVzZXJfaWQiOiJmNGU3NDY5YS01ZDJiLTRjYjUtYTQ4OC00MjZkNDRlYzBkNGYifQ.LCvh0DIEJ5R9GUIZ6RV4IXrGHhDeCxLhm3gX4vTaNOk' \
+  -H 'content-length: 478' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Штаб пробовать трубка.","courseId":"6e79f0a8-28f3-42fc-a2b1-f0bc53dea276","maxScore":52,"minScore":18,"orderIndex":52,"description":"Исполнять зато зарплата передо идея. Мусор князь налево отражение выражение отметить солнце бригада. Уронить аж академик горький заплакать вперед приятель.","estimatedTime":"8 weeks"}'

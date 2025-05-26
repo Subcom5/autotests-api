@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQxOjMwLjc3Nzg5MiIsInVzZXJfaWQiOiIyZTk3ZWQyOS02NGZkLTQ4M2EtYTAyNC03NWI3ZTczNjYxZjgifQ.jtxQR1mjDRFin7RAXBgqUU-RZ4ROrrt56opjsXyFPiA' \
+  -H 'content-length: 452' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Одиннадцать радость материя недостаток свежий.","maxScore":83,"minScore":22,"description":"Функция развернуться славный построить. Палка увеличиваться болото естественный серьезный.","estimatedTime":"8 weeks","previewFileId":"4e8e45fb-a8a8-465d-be36-3b7a5f720614","createdByUserId":"2e97ed29-64fd-483a-a024-75b7e73661f8"}'

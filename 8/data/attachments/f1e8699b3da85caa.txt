@@ -1,0 +1,24 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     AUTOTEST:event_hooks.py:32 Make GET request to http://localhost:8000/api/v1/exercises/4a3a43aa-0e4f-4f44-b282-5013fba82c1b
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/4a3a43aa-0e4f-4f44-b282-5013fba82c1b
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:exercises.py:71 Check get exercise response
+INFO     AUTOTEST:exercises.py:47 Check exercise
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 4a3a43aa-0e4f-4f44-b282-5013fba82c1b
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Ставить прошептать солнце головной миг.
+INFO     AUTOTEST:base.py:38 Check that "course_id" equals to c3808c03-42b2-467a-b6f0-427e16376af4
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 81
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 29
+INFO     AUTOTEST:base.py:38 Check that "order_index" equals to 50
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Ныне господь поставить. Анализ результат мелочь скользить райком горький виднеться.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 4 weeks
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

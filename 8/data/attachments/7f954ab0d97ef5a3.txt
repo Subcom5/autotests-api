@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQxOjI5LjU5NDM1MiIsInVzZXJfaWQiOiJiZjUwMzFiZi1jNDk1LTRiZDEtOTA1Ni0zMTIxZDZiMTJjMmIifQ.5ybLaYbkFABDMT0a8URmKoN5eGjPqRLVLV0hwNwocQ0' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Посвятить триста пятеро жестокий вряд.","maxScore":82,"minScore":1,"description":"Сынок способ ночь поговорить. Заплакать палец разуметься ленинград дыхание зачем.","estimatedTime":"7 weeks","previewFileId":"3ee7874f-89d9-416b-b6b6-3a8dac3fbb88","createdByUserId":"bf5031bf-c495-4bd1-9056-3121d6b12c2b"}'

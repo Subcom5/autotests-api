@@ -1,0 +1,18 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:courses.py:89 Check create course response
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Посвятить триста пятеро жестокий вряд.
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 82
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 1
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Сынок способ ночь поговорить. Заплакать палец разуметься ленинград дыхание зачем.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 7 weeks
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 3ee7874f-89d9-416b-b6b6-3a8dac3fbb88
+INFO     AUTOTEST:base.py:38 Check that "id" equals to bf5031bf-c495-4bd1-9056-3121d6b12c2b
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

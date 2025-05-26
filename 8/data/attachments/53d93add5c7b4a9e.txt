@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/666ff732-3ad2-4dfc-b0d1-0e119bb052c5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQxOjI5Ljg2ODIzNCIsInVzZXJfaWQiOiIxYzA0NTJkZS04Zjg2LTRmNDYtYjNhZC0wMGU1NWZhNDk5ZmQifQ.qjUCQz9YpaZXA_0DhgfTe2xzCr4HIjaPA9YodyXAbvI' \
+  -H 'content-length: 507' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Июнь князь ответить штаб цвет.","maxScore":82,"minScore":3,"description":"Приятель да вздрогнуть интеллектуальный. Стакан ведь уничтожение исполнять. Разводить господь очередной.\nЗима исследование ярко. Через слишком основание призыв еврейский художественный возбуждение.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,17 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make GET request to http://localhost:8000/api/v1/files/incorrect-file-id
+INFO     AUTOTEST:event_hooks.py:41 Got response 422 Unprocessable Entity from http://localhost:8000/api/v1/files/incorrect-file-id
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 422
+INFO     AUTOTEST:files.py:138 Check get file with incorrect file id response
+INFO     AUTOTEST:errors.py:45 Check validation error response
+INFO     AUTOTEST:base.py:74 Check that length of "details" equals to 1
+INFO     AUTOTEST:errors.py:23 Check validation error
+INFO     AUTOTEST:base.py:38 Check that "type" equals to uuid_parsing
+INFO     AUTOTEST:base.py:38 Check that "location" equals to ['path', 'file_id']
+INFO     AUTOTEST:base.py:38 Check that "input" equals to incorrect-file-id
+INFO     AUTOTEST:base.py:38 Check that "context" equals to {'error': 'invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1'}
+INFO     AUTOTEST:base.py:38 Check that "message" equals to Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

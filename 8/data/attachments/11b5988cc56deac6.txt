@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQxOjMxLjk3OTY5MCIsInVzZXJfaWQiOiI1MDkzZmE0MS0wN2FhLTQ5N2UtYjA0ZC05ZDY0ZTIwYzgxMjYifQ.-fRAjfA2iVs41La-Dt2O0wIaSukvVP3RVPZLZjGrTKI' \
+  -H 'content-length: 572' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Падаль самостоятельно задрать песенка.","maxScore":89,"minScore":23,"description":"Пища кузнец другой дыхание.\nНабор висеть точно термин интеллектуальный сверкать слишком.\nНож запеть дрогнуть плавно кожа командующий. Торопливый висеть заработать.","estimatedTime":"9 weeks","previewFileId":"2a4c5df6-bbd4-4647-bec4-ee9014ca95c1","createdByUserId":"5093fa41-07aa-497e-b04d-9d64e20c8126"}'

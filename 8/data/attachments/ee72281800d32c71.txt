@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQxOjMyLjI1MTM5OCIsInVzZXJfaWQiOiI5ZDNlZWNjYi05MWUzLTQwYjMtYTY0YS02NmFjMGMwN2Q5YjkifQ.VhQsNx698GWcEQh8RjkHz6S_JXEFM7mr-1XB8bJ49wM' \
+  -H 'content-length: 666' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Строительство покидать господь разнообразный очередной.","maxScore":93,"minScore":11,"description":"Манера вывести спасть понятный боец что покидать. Командование что прежний торопливый.\nСтроительство выраженный выкинуть художественный назначить. Крыса хлеб очутиться бочок адвокат расстройство.","estimatedTime":"8 weeks","previewFileId":"d20811d3-5b88-4b1b-bb6c-7d28f75602bc","createdByUserId":"9d3eeccb-91e3-40b3-a64a-66ac0c07d9b9"}'

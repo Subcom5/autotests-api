@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQxOjI5Ljg2ODIzNCIsInVzZXJfaWQiOiIxYzA0NTJkZS04Zjg2LTRmNDYtYjNhZC0wMGU1NWZhNDk5ZmQifQ.qjUCQz9YpaZXA_0DhgfTe2xzCr4HIjaPA9YodyXAbvI' \
+  -H 'content-length: 501' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Юный лапа блин нервно появление.","maxScore":74,"minScore":18,"description":"Инфекция печатать спалить горький. Полюбить виднеться висеть понятный собеседник ставить анализ. Покидать бабочка выражение сходить.","estimatedTime":"5 weeks","previewFileId":"7d04e57a-f976-49fb-b73e-8224ba610125","createdByUserId":"1c0452de-8f86-4f46-b3ad-00e55fa499fd"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI2VDIwOjQxOjMxLjA1MjIxMCIsInVzZXJfaWQiOiIyMWE0NTkzYS02OGRjLTQ4OTUtOWVkZi0yZGFlZTQzNDUxNzMifQ.Tn_GVsQveuWgqlRQnL387Nv-jhiMC4ZC6ySJSyzHDDM' \
+  -H 'content-length: 551' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Возникновение порода домашний зачем возмутиться господь.","maxScore":54,"minScore":24,"description":"Выраженный другой миф блин человечек применяться. Школьный шлем порода подробность. Возмутиться мотоцикл передо светило провал райком.","estimatedTime":"5 weeks","previewFileId":"5f047e45-7df3-44af-a026-e7df09c11439","createdByUserId":"21a4593a-68dc-4895-9edf-2daee4345173"}'
