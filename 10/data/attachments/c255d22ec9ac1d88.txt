@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDE3OjU1OjM2LjA4OTczMCIsInVzZXJfaWQiOiJjODNjZGI0Yi1jYTdhLTRmMTYtOTZlNC02ZTc3MmYwMTQ1OWQifQ.5auVfMheo2klz3mk8DieHf6VFOupygak2SX7LlBflm4' \
+  -H 'content-length: 466' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Труп сохранять невыносимый ученый пересечь.","maxScore":100,"minScore":19,"description":"Спалить граница расстройство слишком. Заявление расстегнуть темнеть. Космос нажать мелочь правильный.","estimatedTime":"5 weeks","previewFileId":"75c9d389-8001-4989-832e-618ba256b673","createdByUserId":"c83cdb4b-ca7a-4f16-96e4-6e772f01459d"}'

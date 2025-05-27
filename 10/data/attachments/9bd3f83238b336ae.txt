@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDE3OjU1OjM1LjgxNjYyMCIsInVzZXJfaWQiOiI2Mzg1MzE3Zi00NzcyLTQzMDEtYmIwZS1iODQ1NDBjNTM1ZjYifQ.QfNu7nrAVfAYisiw4ziS2_Nus_Vp0XcMOKqX4qPmy-s' \
+  -H 'content-length: 489' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Спичка граница печатать потрясти.","maxScore":81,"minScore":30,"description":"Командующий проход остановить разнообразный а выгнать подземный советовать. Степь металл неожиданный настать находить июнь.","estimatedTime":"10 weeks","previewFileId":"4d820f0f-99c6-428d-9c49-cf8f685d713f","createdByUserId":"6385317f-4772-4301-bb0e-b84540c535f6"}'

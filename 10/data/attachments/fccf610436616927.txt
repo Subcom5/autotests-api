@@ -1,0 +1,24 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     AUTOTEST:event_hooks.py:32 Make GET request to http://localhost:8000/api/v1/exercises/74d8fe75-20aa-406f-a63b-41e26a8ec27a
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/74d8fe75-20aa-406f-a63b-41e26a8ec27a
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:exercises.py:71 Check get exercise response
+INFO     AUTOTEST:exercises.py:47 Check exercise
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 74d8fe75-20aa-406f-a63b-41e26a8ec27a
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Руководитель выбирать прошептать мусор второй набор результат.
+INFO     AUTOTEST:base.py:38 Check that "course_id" equals to 95b2561b-f395-4bbe-8a45-d80e387994d7
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 88
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 2
+INFO     AUTOTEST:base.py:38 Check that "order_index" equals to 61
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Армейский расстройство означать свежий. Низкий помолчать ответить дошлый. Серьезный вытаскивать успокоиться даль голубчик умирать головной.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 8 weeks
+INFO     AUTOTEST:schema.py:22 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDE3OjU1OjMyLjUyODAxMSIsInVzZXJfaWQiOiIyZjAzZmMyMy02Y2IxLTRjMDctYWFlMi1kNjc3NWZhNjZhYzcifQ.aZ9aIYdx8xeomDFcq1IOkYGC03l3mhxx0ENmtV0idxc' \
+  -H 'content-length: 558' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Пропадать волк прелесть подземный хозяйка.","maxScore":87,"minScore":29,"description":"Жить важный полюбить спорт. Беспомощный идея применяться умолять дурацкий.\nШтаб тяжелый металл. Невыносимый очередной находить важный достоинство девка.","estimatedTime":"2 weeks","previewFileId":"c839a6c1-5e77-4656-b6c5-fe1d8df08e5b","createdByUserId":"2f03fc23-6cb1-4c07-aae2-d6775fa66ac7"}'

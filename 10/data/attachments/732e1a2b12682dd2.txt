@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/11ce227d-3aa1-4a87-843a-c87cc085e9e9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDE3OjU1OjMzLjQyMzIzNCIsInVzZXJfaWQiOiI3MjA3MGQ2My1mOGQzLTQ2YzgtYmU5NS1jMWE3YTMxNmNjMmIifQ.aFBZUjcJRGldRlMYw8H12pbFDEFrvKeh8NqeFPFrKZk' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Заплакать степь совет командующий неправда миф.","maxScore":90,"minScore":22,"description":"Лететь нож вперед исполнять народ холодно палец. Художественный развитый увеличиваться тяжелый расстройство эффект рай.","estimatedTime":"2 weeks"}'

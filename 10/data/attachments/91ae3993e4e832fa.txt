@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDE3OjU1OjMzLjQyMzIzNCIsInVzZXJfaWQiOiI3MjA3MGQ2My1mOGQzLTQ2YzgtYmU5NS1jMWE3YTMxNmNjMmIifQ.aFBZUjcJRGldRlMYw8H12pbFDEFrvKeh8NqeFPFrKZk' \
+  -H 'content-length: 611' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Освобождение песенка освобождение.","maxScore":53,"minScore":25,"description":"Выраженный решение неправда левый магазин. Интернет бегать бак снимать еврейский.\nОчередной болото цвет серьезный дыхание премьера. Появление пламя уточнить инфекция мимо миллиард витрина.","estimatedTime":"1 weeks","previewFileId":"ebd146d1-230f-4e99-903c-6ba8e3436103","createdByUserId":"72070d63-f8d3-46c8-be95-c1a7a316cc2b"}'

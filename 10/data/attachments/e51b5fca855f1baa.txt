@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDE3OjU1OjM0Ljg5NDk0NyIsInVzZXJfaWQiOiJhZmYwMzZiZC1iMGNhLTQ5MGItYThlNS1mOGFmZDMxZmYxOWUifQ.sWB-V52LI-jpjT6Fj6sau38NjFssj_2FQkntNEMo0Zk' \
+  -H 'content-length: 526' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Руководитель выбирать прошептать мусор второй набор результат.","courseId":"95b2561b-f395-4bbe-8a45-d80e387994d7","maxScore":88,"minScore":2,"orderIndex":61,"description":"Армейский расстройство означать свежий. Низкий помолчать ответить дошлый. Серьезный вытаскивать успокоиться даль голубчик умирать головной.","estimatedTime":"8 weeks"}'

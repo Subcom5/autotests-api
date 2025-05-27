@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTI3VDE3OjU1OjMzLjY5NjU1NSIsInVzZXJfaWQiOiJjMGE0ODUzYy1jNGIzLTQ4YzYtODIzMy1hNzA2MjVmNjMzNjIifQ.4NYBdFlK55LU0fvFti9_xgoxvJpMY3Mjo4Z2SWmRmfY' \
+  -H 'content-length: 567' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Отражение издали человечек домашний вывести.","courseId":"69ad2e16-60be-40f0-a2af-5b2bbd313f79","maxScore":94,"minScore":7,"orderIndex":34,"description":"Угроза господь пропасть правление неожиданный возникновение тысяча более. Соответствие угол плод ученый. Слишком назначить указанный подробность слать костер невыносимый покинуть.","estimatedTime":"4 weeks"}'

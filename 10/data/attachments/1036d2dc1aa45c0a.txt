@@ -1,0 +1,19 @@
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     AUTOTEST:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     AUTOTEST:base.py:19 Check that response status code equals to 200
+INFO     AUTOTEST:courses.py:89 Check create course response
+INFO     AUTOTEST:base.py:38 Check that "title" equals to Пропадать волк прелесть подземный хозяйка.
+INFO     AUTOTEST:base.py:38 Check that "max_score" equals to 87
+INFO     AUTOTEST:base.py:38 Check that "min_score" equals to 29
+INFO     AUTOTEST:base.py:38 Check that "description" equals to Жить важный полюбить спорт. Беспомощный идея применяться умолять дурацкий.
+Штаб тяжелый металл. Невыносимый очередной находить важный достоинство девка.
+INFO     AUTOTEST:base.py:38 Check that "estimated_time" equals to 2 weeks
+INFO     AUTOTEST:base.py:38 Check that "id" equals to c839a6c1-5e77-4656-b6c5-fe1d8df08e5b
+INFO     AUTOTEST:base.py:38 Check that "id" equals to 2f03fc23-6cb1-4c07-aae2-d6775fa66ac7
+INFO     AUTOTEST:schema.py:22 Validating JSON schema
